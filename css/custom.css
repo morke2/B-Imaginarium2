@@ -11,7 +11,8 @@ body {
 .img-slider {
   /*small size img fix responsive*/ }
   .img-slider img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    min-height: 125px; }
   .img-slider ul {
     margin: 0;
     padding: 0; }
@@ -88,30 +89,12 @@ body {
 .features .featured-img .img-wrap {
   margin-bottom: 30px; }
 
-/*Custom 5-col layout */
-#brands ul li {
-  width: 20%;
-  float: left;
-  padding-left: 15px;
-  padding-right: 15px; }
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .img-slider .controls-img {
-    margin-top: 30px; }
+    margin-top: 30px;
+    float: left; }
 
   #custom-banners ul li {
-    margin-bottom: 30px; }
-
-  #brands ul li {
-    width: 25%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px; } }
-@media (min-width: 480px) and (max-width: 767px) {
-  #brands ul li {
-    width: 50%;
-    float: left;
-    padding-left: 15px;
-    padding-right: 15px; } }
+    margin-bottom: 30px; } }
 
 /*# sourceMappingURL=custom.css.map */
