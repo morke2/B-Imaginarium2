@@ -11,7 +11,8 @@ body {
 .container-fluid {
   max-width: 1170px;
 }
-.img-slider {
+#img-slider {
+  margin-bottom: 30px;
   /*small size img fix responsive*/
   img {
     margin: 0 auto;
@@ -57,7 +58,7 @@ body {
     }
   }
 }
-.top-banners {
+#top-banners {
   .one-banner {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -84,7 +85,7 @@ body {
 
   }
 }
-.features {
+#features {
   .featured-list {
     img {
       margin-right: 15px;
